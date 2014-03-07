@@ -1,0 +1,47 @@
+body {
+  width: 1100px;
+  height: 1000px;
+  overflow-x: visible;
+}
+
+iframe {
+  border: 40px solid #e6e6e6;
+  border-bottom-width: 70px;
+  border-top-width: 70px;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color: grey;
+  -webkit-transform: scale(2);
+  font-size: 24px;
+  margin-top: 35px;
+}
+
+.container {
+  position: relative;
+  left: -750px;
+  width: 2600px;
+  top: -380px;
+  overflow: hidden;
+  -webkit-transform: scale(.4);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container > div {
+  margin: 30px 60px 30px 60px;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+}
+
+.iphone iframe {
+  height: 568px;
+  width: 328px;
+}
+
+.ipad iframe {
+  height: 1024px;
+  width: 768px;
+}
